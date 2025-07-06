@@ -1,6 +1,6 @@
-def gv                                          
+def gv
 
-pipeline {   
+pipeline {
     agent any
     tools {
         maven 'maven-3.9'
@@ -36,6 +36,6 @@ pipeline {
                     gv.deployApp()
                 }
             }
-        }               
+        }
     }
-} 
+}
